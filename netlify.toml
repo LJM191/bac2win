@@ -1,0 +1,63 @@
+redirectsOrigin = "config"
+functionsDirectory = "D:\\Nouveau dossier\\Bac2win\\Bac2win_supabase\\functions"
+functionsDirectoryOrigin = "config-v1"
+headers = []
+
+[functions]
+
+  [functions.emails]
+  included_files = [
+    "./emails/**"
+  ]
+
+  [functions."*"]
+
+[[plugins]]
+origin = "ui"
+package = "@netlify/plugin-emails"
+pinned_version = "1"
+
+  [plugins.inputs]
+
+[build]
+publish = "D:\\Nouveau dossier\\Bac2win\\Bac2win_supabase"
+publishOrigin = "config"
+functions = "D:\\Nouveau dossier\\Bac2win\\Bac2win_supabase\\functions"
+
+  [build.environment]
+
+  [build.processing]
+
+    [build.processing.css]
+
+    [build.processing.html]
+
+    [build.processing.images]
+
+    [build.processing.js]
+
+  [build.services]
+
+[[redirects]]
+from = "/functions/*"
+to = "/.netlify/functions/:splat"
+status = 200
+force = false
+
+  [redirects.query]
+
+  [redirects.conditions]
+
+  [redirects.headers]
+
+[[redirects]]
+from = "/api/*"
+to = "/.netlify/functions/:splat"
+status = 200
+force = false
+
+  [redirects.query]
+
+  [redirects.conditions]
+
+  [redirects.headers]

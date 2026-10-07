@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Background -->
+  <rect width="64" height="64" rx="12" fill="#111"/>
+
+  <!-- Open book -->
+  <path d="M32 44 C20 44 14 38 14 38 L14 22 C14 22 20 26 32 26 C44 26 50 22 50 22 L50 38 C50 38 44 44 32 44Z" fill="#ffffff" opacity="0.95"/>
+  <path d="M32 44 L32 26" stroke="#ccc" stroke-width="1.2" fill="none"/>
+  <path d="M14 22 C20 18 26 20 32 26" fill="none" stroke="#bbb" stroke-width="1"/>
+  <path d="M50 22 C44 18 38 20 32 26" fill="none" stroke="#bbb" stroke-width="1"/>
+
+  <!-- Graduation cap board -->
+  <polygon points="32,10 46,17 32,24 18,17" fill="#f07820"/>
+  <!-- Cap brim -->
+  <rect x="16" y="16.5" width="32" height="2.5" rx="1.2" fill="#d4622a"/>
+  <!-- Tassel -->
+  <line x1="46" y1="17" x2="46" y2="25" stroke="#f07820" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="46" cy="26" r="1.6" fill="#f07820"/>
+
+  <!-- Trophy -->
+  <path d="M28 52 Q28 49 32 49 Q36 49 36 52 L35 57 L29 57Z" fill="none" stroke="#f07820" stroke-width="1.6" stroke-linejoin="round"/>
+  <path d="M28 52 Q24 52 24 48 Q24 45 27 45" fill="none" stroke="#f07820" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M36 52 Q40 52 40 48 Q40 45 37 45" fill="none" stroke="#f07820" stroke-width="1.6" stroke-linecap="round"/>
+  <line x1="29" y1="57" x2="35" y2="57" stroke="#f07820" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="27" y1="59" x2="37" y2="59" stroke="#f07820" stroke-width="1.8" stroke-linecap="round"/>
+</svg>
